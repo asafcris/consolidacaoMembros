@@ -1,7 +1,11 @@
 ﻿
+using consolidacao.domain.Models;
+using Framework.NHibernate;
+
 namespace consolidacao.domain.Intefaces
 {
-    public interface IEmailRepository
+    public interface IEmailRepository : IRepository<Email>
     {
+       
     }
 }
