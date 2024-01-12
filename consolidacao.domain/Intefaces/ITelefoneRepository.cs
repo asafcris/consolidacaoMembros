@@ -1,6 +1,9 @@
-﻿namespace consolidacao.domain.Intefaces
+﻿using consolidacao.domain.Models;
+using Framework.NHibernate;
+
+namespace consolidacao.domain.Intefaces
 {
-    internal interface ITelefoneRepository
+    public interface ITelefoneRepository: IRepository<Telefone>
     {
     }
 }

@@ -1,6 +1,6 @@
 ﻿namespace consolidacao.domain.Intefaces
 {
-    internal interface IRegistroMembroRepository
+    public interface IRegistroMembroRepository
     {
     }
 }
